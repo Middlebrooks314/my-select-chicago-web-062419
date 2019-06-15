@@ -1,8 +1,9 @@
 def my_select(collection)
-  collection_2 = []
+  other_collection = []
   i = 0 
-  while i < collection.length
-  collection.select do |x|
+  while i < collection.length do
+    
+  
     
 end
 
