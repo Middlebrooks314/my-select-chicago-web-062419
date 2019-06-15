@@ -1,8 +1,10 @@
 def my_select(collection)
+  i = 0 
+  while i < collection.length
   new_array = []
  collection.select do |x|
   if x.even?
-    new_array << yield(array[i])
+    new_array << yield(array[x])
   end 
   new_array
 end
