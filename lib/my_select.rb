@@ -1,12 +1,9 @@
 def my_select(collection)
-  new_array = []
+  collection_2 = []
   i = 0 
   while i < collection.length
   collection.select do |x|
     
-  if new_array << yield(array[x])
-  end 
-  new_array
 end
 
 
