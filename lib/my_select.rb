@@ -2,8 +2,7 @@ def my_select(collection)
   new_array = []
   i = 0 
   while i < collection.length
- 
- collection.select do |x|
+  collection.select do |x|
   if x.even?
     new_array << yield(array[x])
   end 
