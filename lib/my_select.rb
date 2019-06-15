@@ -1,7 +1,7 @@
 def my_select(collection)
   new_array = []
  collection.select do |x|
-   x.even? << new_array
+   x.even? << yield(array[i])
   end 
 end
 
