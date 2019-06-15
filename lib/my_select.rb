@@ -1,6 +1,7 @@
 def my_select(collection)
+  new_array = []
  collection.select do |x|
-   x.even?
+   x.even? << new_array
   end 
 end
 
