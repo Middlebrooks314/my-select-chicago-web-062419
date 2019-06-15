@@ -8,6 +8,5 @@ end
 i += 1 
 end 
 other_collection
-  
-    
+
 end
